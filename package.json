@@ -1,0 +1,24 @@
+{
+  "name": "trading212-export-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/action.js -o dist",
+    "start": "npm run build && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zckoh/trading212-export-automation.git"
+  },
+  "author": "Zac Koh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zckoh/trading212-export-automation/issues"
+  },
+  "homepage": "https://github.com/zckoh/trading212-export-automation#readme",
+  "devDependencies": {
+    "@vercel/ncc": "^0.33.3"
+  }
+}
