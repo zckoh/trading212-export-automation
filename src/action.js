@@ -1,8 +1,9 @@
 import { test } from "./SpreadsheetProcessor/test";
+import { printApplicationHeader } from "./utils";
 
 async function run() {
-  console.log("hello world!");
-  test();
+  printApplicationHeader();
+  console.log("Logging into Trading212 ...");
 }
 
 run();
