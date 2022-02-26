@@ -2,7 +2,7 @@ name: Run
 
 on:
   schedule:
-    - cron: '30 * * * *'
+    - cron: '30 2 * * *'
 
 jobs:
   update-trading212-spreadsheet:
